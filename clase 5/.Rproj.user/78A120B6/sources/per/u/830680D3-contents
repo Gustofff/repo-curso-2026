@@ -1,0 +1,9 @@
+
+
+# datos relacionales con NYC flights --------------------------------------
+
+# instalar paquete --------------------------------------------------------
+
+install.packages("nycflights13")
+library("nycflights13")
+
