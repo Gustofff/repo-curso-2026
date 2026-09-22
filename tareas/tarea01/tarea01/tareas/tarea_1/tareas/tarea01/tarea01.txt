@@ -1,0 +1,333 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260921231533
+Nombre de usuario: LAPTOP-LMHGCD3F\Gustavo
+Usuario RunAs: LAPTOP-LMHGCD3F\Gustavo
+Nombre de la configuración: 
+Máquina: LAPTOP-LMHGCD3F (Microsoft Windows NT 10.0.26200.0)
+Aplicación host: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 13336
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es tareas/tarea01/tarea01.txt
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> pwd
+
+Path
+----
+C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tarea...
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cd "C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas> cd "C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01> mkdir -p tareas/tarea_1
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do 
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1.
+En línea: 1 Carácter: 1
++ mkdir -p tareas/tarea_1
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...\tareas\tarea_1:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1.
+En línea: 1 Carácter: 1
++ mkdir -p tareas/tarea_1
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...\tareas\tarea_1:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01> mkdir dir1, dir2, dir3
+
+
+    Directorio: C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y
+    neg\repo-curso-2026\Tareas\tarea01\tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         21/9/2026     23:19                dir1
+d-----         21/9/2026     23:19                dir2
+d-----         21/9/2026     23:19                dir3
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01> mkdir -p dir4/dir5/dir6
+
+
+    Directorio: C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y
+    neg\repo-curso-2026\Tareas\tarea01\tarea01\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         21/9/2026     23:19                dir6
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01> cd dir4
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\dir4> cd "C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mkdir another,folder
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do 
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\another.
+En línea: 1 Carácter: 1
++ mkdir another,folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...tarea_1\another:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\another.
+En línea: 1 Carácter: 1
++ mkdir another,folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...tarea_1\another:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do 
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\folder.
+En línea: 1 Carácter: 1
++ mkdir another,folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...\tarea_1\folder:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\folder.
+En línea: 1 Carácter: 1
++ mkdir another,folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...\tarea_1\folder:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mkdir "folder 1"
+
+
+    Directorio: C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y
+    neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         21/9/2026     23:22                folder 1
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mkdir "folder 4","folder 5"
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do 
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\folder 4.
+En línea: 1 Carácter: 1
++ mkdir "folder 4","folder 5"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...area_1\folder 4:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\Gustavo\Desktop\Lic. economía\2do
+cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\folder 4.
+En línea: 1 Carácter: 1
++ mkdir "folder 4","folder 5"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Gustav...area_1\folder 4:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+
+
+    Directorio: C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y
+    neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         21/9/2026     23:22                folder 5
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> ls > output.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="another"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir4"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 4"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 5"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="tareas"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="combined.txt"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="output.txt"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> echo "This is a test" > test_1.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a test"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> echo "this is a second test" > test_2.txt
+
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> echo "this is a third test" > test_3.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cat test_1.txt,test_2.txt,test_3.txt
+This is a test
+this is a second test
+this is a third test
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cat t* > combined.txt
+cat : Acceso denegado a la ruta de acceso 'C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos 
+para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\tareas'.
+En línea: 1 Carácter: 1
++ cat t* > combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Gustav...\tarea_1\tareas:String) [Get-Content], 
+UnauthorizedAccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+cat : Acceso denegado a la ruta de acceso 'C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de
+datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\tareas'.
+En línea: 1 Carácter: 1
++ cat t* > combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Gustav...\tarea_1\tareas:String) [Get-Content], Unautho
+   rizedAccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCom
+   mand
+
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cat combined.txt
+This is a test
+this is a second test
+this is a third test
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cat t* >> combined.txt
+cat : Acceso denegado a la ruta de acceso 'C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos 
+para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\tareas'.
+En línea: 1 Carácter: 1
++ cat t* >> combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Gustav...\tarea_1\tareas:String) [Get-Content], 
+UnauthorizedAccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+cat : Acceso denegado a la ruta de acceso 'C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de
+datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\tareas'.
+En línea: 1 Carácter: 1
++ cat t* >> combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Gustav...\tarea_1\tareas:String) [Get-Content], Unautho
+   rizedAccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCom
+   mand
+
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a third test"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> echo "I've appended a line!" >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="I've appended a line!"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cat combined.txt
+This is a test
+this is a second test
+this is a third test
+This is a test
+this is a second test
+this is a third test
+I've appended a line!
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> less combined.txt
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ less combined.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha
+ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ less combined.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv combined.txt dir1
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> ls dir1
+
+
+    Directorio: C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y
+    neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         21/9/2026     23:33            292 combined.txt
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv dir1/*
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv combined.txt, test_* -Destination dir3
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv combined.txt, test_* -Destination dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Gustav...ea_1\test_1.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv combined.txt, test_* -Destination dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Gustav...ea_1\test_1.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv combined.txt, test_* -Destination dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Gustav...ea_1\test_2.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv combined.txt, test_* -Destination dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Gustav...ea_1\test_2.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv combined.txt, test_* -Destination dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Gustav...ea_1\test_3.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv combined.txt, test_* -Destination dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Gustav...ea_1\test_3.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv dir2\combined.txt* -Destination dir4\dir5\dir6
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> ls dir4\dir5\dir6
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv dir3\combined.txt* -Destination dir4\dir5\dir6 
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> ls dir4\dir5\dir6
+
+
+    Directorio: C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y
+    neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1\dir4\dir5\dir6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         21/9/2026     23:33            292 combined.txt
+
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cp dir4/dir5/dir6/combined.txt
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> cp combined.txt backup_combined.txt
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv backup_combined.txt combined_backup.txt
+
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> mv "folder 1" folder_1
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> rm dir4\dir5\dir6\combined.txt, combined_backup.txt
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> rmdir folder_*
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> rmdir "folder 5"
+PS C:\Users\Gustavo\Desktop\Lic. economía\2do cuatrimestre\Ciencia de datos para econ. y neg\repo-curso-2026\Tareas\tarea01\tarea01\tareas\tarea_1> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260921233531
+**********************
